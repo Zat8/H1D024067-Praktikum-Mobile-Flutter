@@ -19,3 +19,8 @@ Pertemuan 2_Produk Page
 
 Pertemuan 2_Produk Form  
 ![ScreenShoots](Screenshoots/produk_form.png)
+   
+Tugas Pertemuan 3  
+Belajar membuat halaman login dan local storage  
+
+Video Demonstrasi Aplikasi  
