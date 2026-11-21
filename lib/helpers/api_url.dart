@@ -1,0 +1,22 @@
+class ApiUrl {
+  // Server dijalankan dengan `php spark serve` (port 8080)
+  // Untuk Chrome / Flutter web
+  static const String baseUrl = 'http://localhost:8080';
+
+  static const String registrasi = baseUrl + '/registrasi';
+  static const String login = baseUrl + '/login';
+  static const String listProduk = baseUrl + '/produk';
+  static const String createProduk = baseUrl + '/produk';
+
+  static String updateProduk(int id) {
+    return baseUrl + '/produk/' + id.toString();
+  }
+
+  static String showProduk(int id) {
+    return baseUrl + '/produk/' + id.toString();
+  }
+
+  static String deleteProduk(int id) {
+    return baseUrl + '/produk/' + id.toString();
+  }
+}
